@@ -6,7 +6,7 @@ def frequencies(items):
     # Your code goes here
     list = []
     for item in items:
-        list.append(str(items))
+        list.append(str(item))
     for i in list:
         count = 0
         for x in list:
