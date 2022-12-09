@@ -8,7 +8,7 @@ def frequencies(items):
     for i in list:
         count = 0
         for x in list:
-            if (i == x):
+            if (str(i) == str(x)):
                 list.remove(x)
                 count += 1
         frequencies.update(i,count)
