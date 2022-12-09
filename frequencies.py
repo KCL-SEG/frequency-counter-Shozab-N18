@@ -11,6 +11,6 @@ def frequencies(items):
             if (str(i) == str(x)):
                 list.remove(x)
                 count += 1
-        frequencies.update(i,count)
+        frequencies[i]= count
         list.remove(i)
     return frequencies
