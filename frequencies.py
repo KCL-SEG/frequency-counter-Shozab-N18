@@ -9,8 +9,8 @@ def frequencies(items):
         count = 0
         for x in list:
             if (str(i) == str(x)):
-                list.remove(x)
+                # list.remove(x)
                 count += 1
         frequencies[i]= count
-        list.remove(i)
+        # list.remove(i)
     return frequencies
