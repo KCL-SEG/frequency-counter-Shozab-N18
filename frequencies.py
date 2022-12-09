@@ -4,7 +4,8 @@
 def frequencies(items):
     frequencies = {}
     # Your code goes here
-    list = items
+    for item in items:
+        list.append(str(items))
     for i in list:
         count = 0
         for x in list:
